@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+
+$bg:skyblue;
+
+body{
+    background:$bg;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.box{
+    border: 2px rgb(233, 61, 61);    
+    border-style: solid;
+    padding: 25px;
+    border-radius: 5px;
+    background: lightgray;
+    margin: 5px;
+}
+
+ul{
+    list-style-type:none;
+}
